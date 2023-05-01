@@ -1,0 +1,329 @@
+<style>
+    body {
+font-family: montserrat;
+color: white;
+background-color: #100c08;
+}
+
+h1 {
+color: white;
+background-color: #36454f;
+text-align: center;
+border-bottom: medium solid white;
+border-radius: 10px;
+letter-spacing: 1pt;
+}
+
+.signin {
+background-color: #36454f;
+border-radius: 10px;
+text-align: center;
+width: 50%;
+margin: auto;
+border-bottom: medium solid white;
+font-size: 13pt;
+}
+
+#profile_tile {
+width: 100px; height: 100px;
+position: absolute; left: 60px; top: 120px;
+background-color: white;
+border-radius: 50%;
+}
+
+.login {
+border-radius: 8px;
+text-align: center;
+}
+
+#login_button {
+width: 40px; height: 40px;
+position: static;
+background-color: white;
+border-radius: 50%;
+}
+
+#signup_button {
+width: 40px; height: 40px;
+position: static;
+background-color: white;
+border-radius: 50%;
+}
+
+#user_button {
+width: 40px; height: 40px;
+position: absolute; left: 1270px; top: 100px;
+background-color: white;
+border-radius: 50%;
+}
+
+.buttons {
+color: white;
+background-color: #36454f;
+font-size: 14pt;
+border: thin solid white;
+border-radius: 12px;
+width: 150%;
+text-align: left;
+}
+
+table {
+margin: auto;
+}
+
+.dash_buttons {
+background-color: #36454f;
+border: transparent;
+color: white; 
+}
+
+#select_profile {
+width: 175px;
+border-radius: 6px;
+}
+
+#user_select {
+width: 180px;
+}
+
+#signup_link {
+color: white;
+}
+
+div h3 {
+color: white;
+background-color: blue;  
+text-align: center;
+position: absolute; left: 650px; top: 200px;   
+}
+
+.b {
+    text-align: center;
+    height: 43px;
+    width: 220px;
+    font-size: 1rem;
+    background-color: #36454f;
+    border: 0;
+    color: white;
+}
+
+.b:hover{
+    background-color: rgb(34, 157, 240);
+}
+
+.b:active {
+    background-color: blue;
+}
+
+fieldset#dashboard {
+width: 15%;
+height: 70%;
+border-radius: 0px;
+background-color: #36454f;
+position: absolute; top: 250px;
+}
+
+table#reports {
+    position: absolute; left: 250px; top: 250px;
+}
+
+fieldset#report_medicine {
+width: 300px;
+height: 150px;
+background-color: #36454f;
+}
+
+fieldset#report_day {
+width: 300px;
+height: 150px;
+background-color: #36454f;
+}
+fieldset#report_month {
+width: 300px;
+height: 150px;
+background-color: #36454f;
+}
+
+fieldset#report_stock {
+width: 300px;
+height: 150px;
+background-color: #36454f;
+}
+
+fieldset#report_expired {
+width: 300px;
+height: 150px;
+background-color: #36454f;
+}
+
+fieldset#report_near_expiry {
+width: 300px;
+height: 150px;
+background-color: #36454f;
+}
+
+fieldset#category {
+text-align: left;    
+width: 1000px;
+height: 367px;
+border: white medium solid;
+position: absolute; top: 253px; left: 250px;
+background-color: #36454f;
+}
+
+fieldset#category_table{
+width: 1000px;
+height: 140px;
+position: absolute; top: 700px; left: 250px;
+background-color: #36454f;
+}
+
+table#show_categories {
+background-color: #36454f;
+}
+
+fieldset#supplier {
+text-align: left;    
+width: 1000px;
+height: 250px;
+position: absolute; top: 250px; left: 250px;
+background-color: #36454f;
+}
+
+fieldset#supplier_table {
+width: 1000px;
+height: 200px;
+position: absolute; top: 600px; left: 250px;
+background-color: #36454f;
+}
+
+fieldset#drug {
+text-align: left;    
+width: 1000px;
+height: 390px;
+position: absolute; top: 250px; left: 250px;
+background-color: #36454f;
+}
+
+fieldset#stock {
+text-align: left;    
+width: 1000px;
+height: 350px;
+position: absolute; top: 250px; left: 250px;
+background-color: #36454f;
+}
+
+#select_drug_category {
+        width: 469px;
+    }
+
+#select_supplier {
+    width: 469px;
+}    
+
+hr {
+    width: 890px;
+}
+
+#addingstxt {
+    width: 660px;
+}
+
+.addingstxt {
+    width: 660px;
+}
+
+#addingstxtdrug {
+    width: 460px;
+}
+
+#addingstxtdrugbarcode {
+    width: 460px;
+}
+
+.btns:hover {
+    background-color: rgb(34, 157, 240);
+}
+
+* {
+    text-decoration: none;
+    list-style: none;
+}
+
+ul {
+    margin-right: 50px;
+}
+
+ul li {
+    line-height: 35px;
+}
+
+ul a:hover {
+    background-color: blue;
+    background-size: 100px;
+}
+
+li a {
+color: white;
+font-size: 18px;
+}
+
+a.navlink, a.hover {
+    background: #36454f;
+    transition: .5s;
+}
+
+#profile_info {
+    position: absolute; top: 50px;
+}
+
+td#show_categories_data {
+    word-spacing: 200px;
+}
+
+.popup_podal {
+    margin: auto;
+    width: 1000px;
+    height: 500px;
+    background-color: #36454f;
+    text-align: center;
+    font-size: 30px;
+    position: absolute; top: 0%; left: 50%;
+    transform: translate(-50%, -50%);
+    border: solid white medium;
+    visibility: hidden;
+}
+
+.popup_btn {
+    padding: 0.5rem 10rem;
+    align-content: center;
+} 
+
+#popup_podal.active {
+    visibility: visible;
+    position: absolute; top: 430px; left: 747px;
+    transform: translate(-50%, -50%) scale(.7);
+}
+
+.container#blur.active {
+    filter: blur(20px);
+    user-select: none;
+    pointer-events: none;
+    transform: translate(-100%, -100%) scale(0);
+}
+
+.form_titles {
+    color: white;
+}
+
+fieldset .form-control {
+    background-color: #36454f;
+    border: #36454f;
+}
+div .form-control {
+    background-color: white;
+}
+</style>
+
+</body>
+</html>
